@@ -4,34 +4,59 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>hello-world — GitHub Pages</title>
-  <style>body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;max-width:800px;margin:3rem auto;padding:0 1rem;color:#24292e} a{color:#0969da} header{border-bottom:1px solid #e1e4e8;padding-bottom:1rem;margin-bottom:1rem}</style>
+  <style>
+    :root{--bg:#0b1221;--card:#0f1724;--muted:#9aa4b2;--accent:#79b8ff;--accent-2:#2ea44f}
+    body{font-family:Inter,ui-sans-serif,system-ui,Segoe UI,Roboto,Helvetica,Arial;line-height:1.6;color:#e6eef8;background:linear-gradient(180deg,#041025 0%,#071424 100%);margin:0;padding:2rem}
+    .container{max-width:900px;margin:0 auto;background:linear-gradient(180deg,rgba(255,255,255,0.02),rgba(255,255,255,0.01));border-radius:12px;padding:2rem;color:#cfe8ff;box-shadow:0 10px 30px rgba(2,6,23,0.6)}
+    header{display:flex;align-items:center;justify-content:space-between;gap:1rem}
+    header h1{margin:0;font-size:1.6rem}
+    nav a{color:var(--accent);text-decoration:none;margin-left:0.75rem}
+    .hero{margin-top:1rem}
+    pre{background:#021425;padding:1rem;border-radius:8px;overflow:auto;color:#dbeafe}
+    .card{background:rgba(255,255,255,0.02);padding:1rem;border-radius:8px;margin-top:1rem}
+    footer{margin-top:2rem;color:var(--muted);font-size:0.9rem}
+    a.button{display:inline-block;background:var(--accent);color:#06203a;padding:0.45rem 0.8rem;border-radius:6px;text-decoration:none;font-weight:600}
+  </style>
 </head>
 <body>
-  <header>
-    <h1>hello-world</h1>
-    <p>A small learning repository demonstrating a Java HelloWorld example.</p>
-  </header>
+  <div class="container">
+    <header>
+      <div>
+        <h1>hello-world</h1>
+        <div style="color:var(--muted);font-size:0.95rem">A small learning repository — Java HelloWorld example</div>
+      </div>
+      <nav>
+        <a href="https://github.com/ITsReijt/hello-world">Repository</a>
+        <a href="README-java.md">Java README</a>
+        <a class="button" href="https://ITsReijt.github.io/hello-world/">Live site</a>
+      </nav>
+    </header>
 
-  <main>
-    <section>
-      <h2>How to run the Java example</h2>
-      <p>See the repository <a href="https://github.com/ITsReijt/hello-world">on GitHub</a> or the Java example README:</p>
-      <ul>
-        <li><a href="README-java.md">README-java.md</a> (instructions to compile and run src/HelloWorld.java)</li>
-      </ul>
-      <p>Quick commands (from repository root):</p>
-      <pre><code>javac src/HelloWorld.java
-java -cp src HelloWorld</code></pre>
+    <section class="hero">
+      <p>This simple Pages site lives in the <code>docs/</code> folder and shows how to run the Java example that ships with this repository.</p>
     </section>
 
-    <section>
-      <h2>About this site</h2>
-      <p>This site is served from the <code>docs/</code> folder on the <code>main</code> branch. It is intended as a simple GitHub Pages demo.</p>
+    <section class="card">
+      <h2>Run the Java example</h2>
+      <p>From the repository root, compile and run the single-file example:</p>
+      <pre><code>javac src/HelloWorld.java
+java -cp src HelloWorld</code></pre>
+      <p>Expected output: <strong>Hello, World!</strong></p>
+    </section>
+
+    <section class="card">
+      <h2>Notes & next steps</h2>
+      <ul>
+        <li>The example uses no package declaration so it runs directly from <code>src/</code>.</li>
+        <li>Consider adding a Gradle or Maven project for more Java examples (I can help).</li>
+        <li>To change where Pages is published from, go to Repo → Settings → Pages.</li>
+      </ul>
     </section>
 
     <footer>
-      <p>Repository: <a href="https://github.com/ITsReijt/hello-world">ITsReijt/hello-world</a></p>
+      <div>Repository: <a href="https://github.com/ITsReijt/hello-world">ITsReijt/hello-world</a></div>
+      <div style="margin-top:0.5rem">If the site is not visible, enable GitHub Pages in Settings and select "main branch / docs folder" as the source.</div>
     </footer>
-  </main>
+  </div>
 </body>
 </html>

@@ -4,6 +4,8 @@ A small personal repository created to learn how GitHub works and to practice cr
 
 ---
 
+Live site: https://ITsReijt.github.io/hello-world/
+
 Status: WIP (learning / practice repository)
 
 ## Table of Contents
@@ -45,6 +47,7 @@ There is no executable code in this repository — it's for learning. If you wan
 ## Examples
 
 - Java example: See [README-java.md](README-java.md) for instructions to compile and run the HelloWorld example (src/HelloWorld.java).
+- Live demo: Visit the GitHub Pages site — https://ITsReijt.github.io/hello-world/
 
 ## Contributing
 
@@ -66,7 +69,7 @@ This repository is for learning and contains no code with licensing concerns. If
 
 Live site
 
-- If GitHub Pages is enabled for this repository (deploying from the main branch / docs folder), the site will be available at: https://ITsReijt.github.io/hello-world/
+- If GitHub Pages is enabled for this repository (deploying from the main branch / docs folder), the site is available at: https://ITsReijt.github.io/hello-world/
 
 Nederlands (kort)
 
