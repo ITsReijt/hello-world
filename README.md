@@ -64,6 +64,10 @@ This repository is for learning and contains no code with licensing concerns. If
 
 ---
 
+Live site
+
+- If GitHub Pages is enabled for this repository (deploying from the main branch / docs folder), the site will be available at: https://ITsReijt.github.io/hello-world/
+
 Nederlands (kort)
 
 # hello-world
