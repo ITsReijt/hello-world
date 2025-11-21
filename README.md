@@ -12,6 +12,7 @@ Status: WIP (learning / practice repository)
 - Why I created this
 - Resources
 - How to use
+- Examples
 - Contributing
 - What I plan next
 - License & Contact
@@ -38,6 +39,12 @@ There is no executable code in this repository — it's for learning. If you wan
    git clone https://github.com/ITsReijt/hello-world.git
 
 2. Open README.md in your editor and edit or practice making commits.
+
+3. See the Java example for a small runnable example (link in Examples).
+
+## Examples
+
+- Java example: See [README-java.md](README-java.md) for instructions to compile and run the HelloWorld example (src/HelloWorld.java).
 
 ## Contributing
 
